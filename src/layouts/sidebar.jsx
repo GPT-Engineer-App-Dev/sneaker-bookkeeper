@@ -11,7 +11,19 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import { CircleUser, Menu, List } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
-import { navItems } from "../App";
+
+const navItems = [
+  {
+    title: "Transactions",
+    to: "/",
+    icon: <List className="h-4 w-4" />,
+  },
+  {
+    title: "Gallery",
+    to: "/gallery",
+    icon: <List className="h-4 w-4" />,
+  },
+];
 
 const Layout = () => {
   return (
