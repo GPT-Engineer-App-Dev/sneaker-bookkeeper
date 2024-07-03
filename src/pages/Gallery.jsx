@@ -11,6 +11,16 @@ const initialImages = [
   "/images/sneaker4.jpg",
   "/images/sneaker5.jpg",
   "/images/sneaker6.jpg",
+  "/images/sneaker7.jpg",
+  "/images/sneaker8.jpg",
+  "/images/sneaker9.jpg",
+  "/images/sneaker10.jpg",
+  "/images/sneaker11.jpg",
+  "/images/sneaker12.jpg",
+  "/images/sneaker13.jpg",
+  "/images/sneaker14.jpg",
+  "/images/sneaker15.jpg",
+  "/images/sneaker16.jpg",
 ];
 
 const Gallery = () => {
