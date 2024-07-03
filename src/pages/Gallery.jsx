@@ -4,8 +4,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
+const initialImages = [
+  "/images/sneaker1.jpg",
+  "/images/sneaker2.jpg",
+  "/images/sneaker3.jpg",
+  "/images/sneaker4.jpg",
+  "/images/sneaker5.jpg",
+  "/images/sneaker6.jpg",
+];
+
 const Gallery = () => {
-  const [images, setImages] = useState([]);
+  const [images, setImages] = useState(initialImages);
 
   const handleUpload = (e) => {
     const files = Array.from(e.target.files);
