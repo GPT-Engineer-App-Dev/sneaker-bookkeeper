@@ -21,6 +21,10 @@ const initialImages = [
   "/images/sneaker14.jpg",
   "/images/sneaker15.jpg",
   "/images/sneaker16.jpg",
+  "/images/sneaker17.jpg",
+  "/images/sneaker18.jpg",
+  "/images/sneaker19.jpg",
+  "/images/sneaker20.jpg",
 ];
 
 const Gallery = () => {
